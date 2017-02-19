@@ -1,0 +1,6 @@
+framework module Pods_HouseMeUITests {
+  umbrella header "Pods-HouseMeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

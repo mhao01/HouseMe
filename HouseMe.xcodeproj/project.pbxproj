@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350762BE1E58C042002516A5 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 350762BD1E58C042002516A5 /* GooglePlaces.bundle */; };
+		350762C01E58C054002516A5 /* GooglePlacePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 350762BF1E58C054002516A5 /* GooglePlacePicker.bundle */; };
+		350762C21E58C078002516A5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 350762C11E58C078002516A5 /* GoogleMaps.bundle */; };
+		350762C41E58D1B9002516A5 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350762C31E58D1B9002516A5 /* InfoWindow.xib */; };
+		35D38B2C6CA7259639C1EBC7 /* Pods_HouseMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098489C617502D90B76CCC6E /* Pods_HouseMeTests.framework */; };
+		46FDFFF67D70751A0F3072C0 /* Pods_HouseMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6B55A104E2886632C69FAE /* Pods_HouseMe.framework */; };
+		7A79783B6AC78F7130483315 /* Pods_HouseMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994D88140F75D86401D4A92A /* Pods_HouseMeUITests.framework */; };
+		CD268A1F1E5943F4004E0F37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD268A1E1E5943F4004E0F37 /* GoogleService-Info.plist */; };
+		CD268A211E595A80004E0F37 /* SlideshowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD268A201E595A80004E0F37 /* SlideshowController.swift */; };
 		CD292E451E58247B00035F00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD292E441E58247B00035F00 /* AppDelegate.swift */; };
 		CD292E471E58247B00035F00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD292E461E58247B00035F00 /* ViewController.swift */; };
 		CD292E4A1E58247B00035F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD292E481E58247B00035F00 /* Main.storyboard */; };
@@ -14,6 +23,32 @@
 		CD292E4F1E58247B00035F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD292E4D1E58247B00035F00 /* LaunchScreen.storyboard */; };
 		CD292E5A1E58247B00035F00 /* HouseMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD292E591E58247B00035F00 /* HouseMeTests.swift */; };
 		CD292E651E58247B00035F00 /* HouseMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD292E641E58247B00035F00 /* HouseMeUITests.swift */; };
+		CDAA2A001E586FD50045E731 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA29FF1E586FD50045E731 /* GoogleMapsBase.framework */; };
+		CDAA2A021E5870130045E731 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A011E5870130045E731 /* GoogleMaps.framework */; };
+		CDAA2A041E5870220045E731 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A031E5870220045E731 /* GoogleMapsCore.framework */; };
+		CDAA2A091E5870880045E731 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A081E5870880045E731 /* Accelerate.framework */; };
+		CDAA2A0B1E5870910045E731 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A0A1E5870910045E731 /* CoreData.framework */; };
+		CDAA2A0D1E5870980045E731 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A0C1E5870980045E731 /* CoreGraphics.framework */; };
+		CDAA2A0F1E58709E0045E731 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A0E1E58709E0045E731 /* CoreLocation.framework */; };
+		CDAA2A111E5870A40045E731 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A101E5870A40045E731 /* CoreText.framework */; };
+		CDAA2A131E5870AC0045E731 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A121E5870AC0045E731 /* GLKit.framework */; };
+		CDAA2A151E5870B60045E731 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A141E5870B60045E731 /* ImageIO.framework */; };
+		CDAA2A171E5870C40045E731 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A161E5870C40045E731 /* libc++.tbd */; };
+		CDAA2A191E5870DA0045E731 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A181E5870DA0045E731 /* libz.tbd */; };
+		CDAA2A1B1E5870E90045E731 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A1A1E5870E90045E731 /* OpenGLES.framework */; };
+		CDAA2A1D1E5870F20045E731 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A1C1E5870F20045E731 /* QuartzCore.framework */; };
+		CDAA2A1F1E5870F90045E731 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A1E1E5870F90045E731 /* SystemConfiguration.framework */; };
+		CDAA2A211E5871020045E731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A201E5871020045E731 /* UIKit.framework */; };
+		CDAA2A261E5872830045E731 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A251E5872830045E731 /* GooglePlacePicker.framework */; };
+		CDAA2A281E58729B0045E731 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA2A271E58729B0045E731 /* GooglePlaces.framework */; };
+		CDAA2A2E1E58A6AE0045E731 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA2A2D1E58A6AE0045E731 /* HouseViewController.swift */; };
+		CDB48D701E58418900EC6192 /* AukDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB48D6F1E58418900EC6192 /* AukDistrib.swift */; };
+		CDB48D721E5841A200EC6192 /* MoaDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB48D711E5841A200EC6192 /* MoaDistrib.swift */; };
+		CDB48D741E58442A00EC6192 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDB48D731E58442A00EC6192 /* Images */; };
+		CDB48D761E5848A300EC6192 /* DemoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB48D751E5848A300EC6192 /* DemoConstants.swift */; };
+		CDF812271E591BCD00B9AD35 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF812261E591BCD00B9AD35 /* House.swift */; };
+		CDF8122D1E5920FE00B9AD35 /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8122C1E5920FE00B9AD35 /* CustomInfoWindow.swift */; };
+		CDF8122F1E593DE000B9AD35 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8122E1E593DE000B9AD35 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +69,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098489C617502D90B76CCC6E /* Pods_HouseMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB36930B6F3DB1FFB6112A2 /* Pods-HouseMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseMeTests/Pods-HouseMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		350762BD1E58C042002516A5 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "../../Downloads/GooglePlaces-2.2.0/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
+		350762BF1E58C054002516A5 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = "../../Downloads/GooglePlacePicker-2.2.0/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle"; sourceTree = "<group>"; };
+		350762C11E58C078002516A5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../Downloads/GoogleMaps-2.2.0/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		350762C31E58D1B9002516A5 /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		3F5A165FFC9313838B9FE4CF /* Pods-HouseMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseMeUITests/Pods-HouseMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		940AF43FEA0ACED5842E0D34 /* Pods-HouseMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseMeUITests/Pods-HouseMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		994D88140F75D86401D4A92A /* Pods_HouseMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6B55A104E2886632C69FAE /* Pods_HouseMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F5C01ED4A9CF316F10645F /* Pods-HouseMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseMeTests/Pods-HouseMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		BECC6E8D5DE81F60183F17F0 /* Pods-HouseMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseMe/Pods-HouseMe.debug.xcconfig"; sourceTree = "<group>"; };
+		CD268A1E1E5943F4004E0F37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD268A201E595A80004E0F37 /* SlideshowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideshowController.swift; sourceTree = "<group>"; };
 		CD292E411E58247B00035F00 /* HouseMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD292E441E58247B00035F00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD292E461E58247B00035F00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +96,34 @@
 		CD292E601E58247B00035F00 /* HouseMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD292E641E58247B00035F00 /* HouseMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseMeUITests.swift; sourceTree = "<group>"; };
 		CD292E661E58247B00035F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAA29FF1E586FD50045E731 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		CDAA2A011E5870130045E731 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		CDAA2A031E5870220045E731 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		CDAA2A081E5870880045E731 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CDAA2A0A1E5870910045E731 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDAA2A0C1E5870980045E731 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDAA2A0E1E58709E0045E731 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CDAA2A101E5870A40045E731 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CDAA2A121E5870AC0045E731 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CDAA2A141E5870B60045E731 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CDAA2A161E5870C40045E731 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CDAA2A181E5870DA0045E731 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CDAA2A1A1E5870E90045E731 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CDAA2A1C1E5870F20045E731 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDAA2A1E1E5870F90045E731 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDAA2A201E5871020045E731 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDAA2A221E5871810045E731 /* HouseMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HouseMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDAA2A251E5872830045E731 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlacePicker.framework; sourceTree = "<group>"; };
+		CDAA2A271E58729B0045E731 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		CDAA2A2D1E58A6AE0045E731 /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		CDB48D6F1E58418900EC6192 /* AukDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AukDistrib.swift; sourceTree = "<group>"; };
+		CDB48D711E5841A200EC6192 /* MoaDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoaDistrib.swift; sourceTree = "<group>"; };
+		CDB48D731E58442A00EC6192 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		CDB48D751E5848A300EC6192 /* DemoConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConstants.swift; sourceTree = "<group>"; };
+		CDF812261E591BCD00B9AD35 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = House.swift; path = ../House.swift; sourceTree = "<group>"; };
+		CDF8122C1E5920FE00B9AD35 /* CustomInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomInfoWindow.swift; path = ../CustomInfoWindow.swift; sourceTree = "<group>"; };
+		CDF8122E1E593DE000B9AD35 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadViewController.swift; path = ../UploadViewController.swift; sourceTree = "<group>"; };
+		E63412E3ED188294B5E646A2 /* Pods-HouseMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseMe/Pods-HouseMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +131,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAA2A211E5871020045E731 /* UIKit.framework in Frameworks */,
+				CDAA2A1F1E5870F90045E731 /* SystemConfiguration.framework in Frameworks */,
+				CDAA2A1D1E5870F20045E731 /* QuartzCore.framework in Frameworks */,
+				CDAA2A1B1E5870E90045E731 /* OpenGLES.framework in Frameworks */,
+				CDAA2A191E5870DA0045E731 /* libz.tbd in Frameworks */,
+				CDAA2A171E5870C40045E731 /* libc++.tbd in Frameworks */,
+				CDAA2A151E5870B60045E731 /* ImageIO.framework in Frameworks */,
+				CDAA2A131E5870AC0045E731 /* GLKit.framework in Frameworks */,
+				CDAA2A111E5870A40045E731 /* CoreText.framework in Frameworks */,
+				CDAA2A261E5872830045E731 /* GooglePlacePicker.framework in Frameworks */,
+				CDAA2A0F1E58709E0045E731 /* CoreLocation.framework in Frameworks */,
+				CDAA2A0D1E5870980045E731 /* CoreGraphics.framework in Frameworks */,
+				CDAA2A0B1E5870910045E731 /* CoreData.framework in Frameworks */,
+				CDAA2A091E5870880045E731 /* Accelerate.framework in Frameworks */,
+				CDAA2A021E5870130045E731 /* GoogleMaps.framework in Frameworks */,
+				CDAA2A281E58729B0045E731 /* GooglePlaces.framework in Frameworks */,
+				CDAA2A041E5870220045E731 /* GoogleMapsCore.framework in Frameworks */,
+				CDAA2A001E586FD50045E731 /* GoogleMapsBase.framework in Frameworks */,
+				46FDFFF67D70751A0F3072C0 /* Pods_HouseMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D38B2C6CA7259639C1EBC7 /* Pods_HouseMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +165,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A79783B6AC78F7130483315 /* Pods_HouseMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4981443CF5166E509900FA61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BECC6E8D5DE81F60183F17F0 /* Pods-HouseMe.debug.xcconfig */,
+				E63412E3ED188294B5E646A2 /* Pods-HouseMe.release.xcconfig */,
+				0BB36930B6F3DB1FFB6112A2 /* Pods-HouseMeTests.debug.xcconfig */,
+				A2F5C01ED4A9CF316F10645F /* Pods-HouseMeTests.release.xcconfig */,
+				940AF43FEA0ACED5842E0D34 /* Pods-HouseMeUITests.debug.xcconfig */,
+				3F5A165FFC9313838B9FE4CF /* Pods-HouseMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD292E381E58247B00035F00 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +192,17 @@
 				CD292E581E58247B00035F00 /* HouseMeTests */,
 				CD292E631E58247B00035F00 /* HouseMeUITests */,
 				CD292E421E58247B00035F00 /* Products */,
+				350762BF1E58C054002516A5 /* GooglePlacePicker.bundle */,
+				350762BD1E58C042002516A5 /* GooglePlaces.bundle */,
+				350762C11E58C078002516A5 /* GoogleMaps.bundle */,
+				CDAA29FF1E586FD50045E731 /* GoogleMapsBase.framework */,
+				CDAA2A011E5870130045E731 /* GoogleMaps.framework */,
+				CDAA2A031E5870220045E731 /* GoogleMapsCore.framework */,
+				CDAA2A071E5870880045E731 /* Frameworks */,
+				CDAA2A221E5871810045E731 /* HouseMe-Bridging-Header.h */,
+				CDAA2A251E5872830045E731 /* GooglePlacePicker.framework */,
+				CDAA2A271E58729B0045E731 /* GooglePlaces.framework */,
+				4981443CF5166E509900FA61 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +219,23 @@
 		CD292E431E58247B00035F00 /* HouseMe */ = {
 			isa = PBXGroup;
 			children = (
+				CDF8122E1E593DE000B9AD35 /* UploadViewController.swift */,
+				CDF8122C1E5920FE00B9AD35 /* CustomInfoWindow.swift */,
+				CDF812261E591BCD00B9AD35 /* House.swift */,
 				CD292E441E58247B00035F00 /* AppDelegate.swift */,
 				CD292E461E58247B00035F00 /* ViewController.swift */,
+				CD268A201E595A80004E0F37 /* SlideshowController.swift */,
+				CDB48D711E5841A200EC6192 /* MoaDistrib.swift */,
+				CDB48D731E58442A00EC6192 /* Images */,
 				CD292E481E58247B00035F00 /* Main.storyboard */,
+				CDAA2A2D1E58A6AE0045E731 /* HouseViewController.swift */,
+				CDB48D751E5848A300EC6192 /* DemoConstants.swift */,
+				CD268A1E1E5943F4004E0F37 /* GoogleService-Info.plist */,
 				CD292E4B1E58247B00035F00 /* Assets.xcassets */,
+				CDB48D6F1E58418900EC6192 /* AukDistrib.swift */,
 				CD292E4D1E58247B00035F00 /* LaunchScreen.storyboard */,
 				CD292E501E58247B00035F00 /* Info.plist */,
+				350762C31E58D1B9002516A5 /* InfoWindow.xib */,
 			);
 			path = HouseMe;
 			sourceTree = "<group>";
@@ -125,6 +258,29 @@
 			path = HouseMeUITests;
 			sourceTree = "<group>";
 		};
+		CDAA2A071E5870880045E731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA2A201E5871020045E731 /* UIKit.framework */,
+				CDAA2A1E1E5870F90045E731 /* SystemConfiguration.framework */,
+				CDAA2A1C1E5870F20045E731 /* QuartzCore.framework */,
+				CDAA2A1A1E5870E90045E731 /* OpenGLES.framework */,
+				CDAA2A181E5870DA0045E731 /* libz.tbd */,
+				CDAA2A161E5870C40045E731 /* libc++.tbd */,
+				CDAA2A141E5870B60045E731 /* ImageIO.framework */,
+				CDAA2A121E5870AC0045E731 /* GLKit.framework */,
+				CDAA2A101E5870A40045E731 /* CoreText.framework */,
+				CDAA2A0E1E58709E0045E731 /* CoreLocation.framework */,
+				CDAA2A0C1E5870980045E731 /* CoreGraphics.framework */,
+				CDAA2A0A1E5870910045E731 /* CoreData.framework */,
+				CDAA2A081E5870880045E731 /* Accelerate.framework */,
+				9B6B55A104E2886632C69FAE /* Pods_HouseMe.framework */,
+				098489C617502D90B76CCC6E /* Pods_HouseMeTests.framework */,
+				994D88140F75D86401D4A92A /* Pods_HouseMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD292E691E58247B00035F00 /* Build configuration list for PBXNativeTarget "HouseMe" */;
 			buildPhases = (
+				2AAEDBEC6B7A891D856F3ECC /* [CP] Check Pods Manifest.lock */,
 				CD292E3D1E58247B00035F00 /* Sources */,
 				CD292E3E1E58247B00035F00 /* Frameworks */,
 				CD292E3F1E58247B00035F00 /* Resources */,
+				93FE155394A5B15EE9C4B54D /* [CP] Embed Pods Frameworks */,
+				263D36B786E24F67E79AC8F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD292E6C1E58247B00035F00 /* Build configuration list for PBXNativeTarget "HouseMeTests" */;
 			buildPhases = (
+				17AA24A5F806EF82A00B978E /* [CP] Check Pods Manifest.lock */,
 				CD292E511E58247B00035F00 /* Sources */,
 				CD292E521E58247B00035F00 /* Frameworks */,
 				CD292E531E58247B00035F00 /* Resources */,
+				F32275A511693068EE0A980F /* [CP] Embed Pods Frameworks */,
+				2EF1A53E816566D486D95088 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD292E6F1E58247B00035F00 /* Build configuration list for PBXNativeTarget "HouseMeUITests" */;
 			buildPhases = (
+				1F7AF759EFCBEABD0DF20880 /* [CP] Check Pods Manifest.lock */,
 				CD292E5C1E58247B00035F00 /* Sources */,
 				CD292E5D1E58247B00035F00 /* Frameworks */,
 				CD292E5E1E58247B00035F00 /* Resources */,
+				7BD1C27C8EBA3CE7BF3FAB40 /* [CP] Embed Pods Frameworks */,
+				B92A61E36748DAD2BB7A5209 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,18 +353,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = ChaoHaoBerkeley;
 				TargetAttributes = {
 					CD292E401E58247B00035F00 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DV2995Y7AH;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					CD292E541E58247B00035F00 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = CD292E401E58247B00035F00;
 					};
 					CD292E5F1E58247B00035F00 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = CD292E401E58247B00035F00;
 					};
 				};
@@ -229,9 +399,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350762C01E58C054002516A5 /* GooglePlacePicker.bundle in Resources */,
 				CD292E4F1E58247B00035F00 /* LaunchScreen.storyboard in Resources */,
+				CD268A1F1E5943F4004E0F37 /* GoogleService-Info.plist in Resources */,
 				CD292E4C1E58247B00035F00 /* Assets.xcassets in Resources */,
+				350762C41E58D1B9002516A5 /* InfoWindow.xib in Resources */,
+				CDB48D741E58442A00EC6192 /* Images in Resources */,
 				CD292E4A1E58247B00035F00 /* Main.storyboard in Resources */,
+				350762BE1E58C042002516A5 /* GooglePlaces.bundle in Resources */,
+				350762C21E58C078002516A5 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +427,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17AA24A5F806EF82A00B978E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F7AF759EFCBEABD0DF20880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		263D36B786E24F67E79AC8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseMe/Pods-HouseMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AAEDBEC6B7A891D856F3ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF1A53E816566D486D95088 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseMeTests/Pods-HouseMeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD1C27C8EBA3CE7BF3FAB40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseMeUITests/Pods-HouseMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FE155394A5B15EE9C4B54D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseMe/Pods-HouseMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92A61E36748DAD2BB7A5209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseMeUITests/Pods-HouseMeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32275A511693068EE0A980F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseMeTests/Pods-HouseMeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD292E3D1E58247B00035F00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB48D701E58418900EC6192 /* AukDistrib.swift in Sources */,
+				CDAA2A2E1E58A6AE0045E731 /* HouseViewController.swift in Sources */,
+				CDB48D721E5841A200EC6192 /* MoaDistrib.swift in Sources */,
+				CDF8122D1E5920FE00B9AD35 /* CustomInfoWindow.swift in Sources */,
+				CD268A211E595A80004E0F37 /* SlideshowController.swift in Sources */,
+				CDF8122F1E593DE000B9AD35 /* UploadViewController.swift in Sources */,
+				CDF812271E591BCD00B9AD35 /* House.swift in Sources */,
 				CD292E471E58247B00035F00 /* ViewController.swift in Sources */,
 				CD292E451E58247B00035F00 /* AppDelegate.swift in Sources */,
+				CDB48D761E5848A300EC6192 /* DemoConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,10 +648,13 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -371,10 +696,13 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -391,74 +719,114 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		CD292E6A1E58247B00035F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECC6E8D5DE81F60183F17F0 /* Pods-HouseMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DV2995Y7AH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HouseMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoHao.HouseMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HouseMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CD292E6B1E58247B00035F00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63412E3ED188294B5E646A2 /* Pods-HouseMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DV2995Y7AH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HouseMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoHao.HouseMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HouseMe-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		CD292E6D1E58247B00035F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB36930B6F3DB1FFB6112A2 /* Pods-HouseMeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HouseMeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoHao.HouseMeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseMe.app/HouseMe";
 			};
 			name = Debug;
 		};
 		CD292E6E1E58247B00035F00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F5C01ED4A9CF316F10645F /* Pods-HouseMeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HouseMeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoHao.HouseMeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseMe.app/HouseMe";
 			};
 			name = Release;
 		};
 		CD292E701E58247B00035F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940AF43FEA0ACED5842E0D34 /* Pods-HouseMeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HouseMeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoHao.HouseMeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HouseMe;
 			};
 			name = Debug;
 		};
 		CD292E711E58247B00035F00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5A165FFC9313838B9FE4CF /* Pods-HouseMeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HouseMeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoHao.HouseMeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HouseMe;
 			};
 			name = Release;
@@ -482,6 +850,7 @@
 				CD292E6B1E58247B00035F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD292E6C1E58247B00035F00 /* Build configuration list for PBXNativeTarget "HouseMeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +859,7 @@
 				CD292E6E1E58247B00035F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD292E6F1E58247B00035F00 /* Build configuration list for PBXNativeTarget "HouseMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +868,7 @@
 				CD292E711E58247B00035F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

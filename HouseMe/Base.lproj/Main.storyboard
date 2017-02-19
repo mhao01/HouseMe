@@ -1,25 +1,217 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WJr-Le-yb2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--House View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="HouseViewController" customModule="HouseMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="qTN-4z-uNb"/>
+                        <viewControllerLayoutGuide type="bottom" id="knV-0W-o1l"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <view key="view" contentMode="scaleToFill" id="OM2-9C-Igx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FeH-ej-Gjp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="469"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="394" id="YjF-lc-soU"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydG-1y-Ee8" userLabel="Image Description Label">
+                                <rect key="frame" x="9" y="438" width="334" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FeH-ej-Gjp" firstAttribute="leading" secondItem="OM2-9C-Igx" secondAttribute="leading" id="3i3-iD-ffB"/>
+                            <constraint firstItem="FeH-ej-Gjp" firstAttribute="top" secondItem="OM2-9C-Igx" secondAttribute="top" id="60A-8e-Oa5"/>
+                            <constraint firstAttribute="trailing" secondItem="FeH-ej-Gjp" secondAttribute="trailing" id="XjC-tv-4Vc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageDescriptionLabel" destination="ydG-1y-Ee8" id="Cx0-SS-pO7"/>
+                        <outlet property="scrollView" destination="FeH-ej-Gjp" id="7ck-eG-bwi"/>
+                        <segue destination="XqH-rR-mq9" kind="show" identifier="toMap" id="6BY-Tc-l2F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3JK-Dy-cnK"/>
             </objects>
+            <point key="canvasLocation" x="734" y="292"/>
+        </scene>
+        <!--Upload-->
+        <scene sceneID="341-hc-ujG">
+            <objects>
+                <viewController id="nl9-at-aLh" customClass="UploadViewController" customModule="HouseMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="egi-BW-YMd"/>
+                        <viewControllerLayoutGuide type="bottom" id="vTi-Nt-Y9G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uNC-hv-sAf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P97-oe-x3S">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="3Ji-iZ-w5B"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="ng1-VE-CYo" kind="embed" identifier="SlideshowSegue" id="78G-S7-ZDI"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvb-Am-xyK">
+                                <rect key="frame" x="137" y="410" width="101" height="30"/>
+                                <state key="normal" title="Upload Photos"/>
+                                <connections>
+                                    <action selector="loadImageButtonTapped:" destination="nl9-at-aLh" eventType="touchUpInside" id="zMT-up-Ssa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="P97-oe-x3S" secondAttribute="trailing" id="QzY-tG-F04"/>
+                            <constraint firstItem="P97-oe-x3S" firstAttribute="top" secondItem="uNC-hv-sAf" secondAttribute="top" id="UuY-hK-dmI"/>
+                            <constraint firstItem="Hvb-Am-xyK" firstAttribute="top" secondItem="P97-oe-x3S" secondAttribute="bottom" constant="35" id="pjU-MU-KtV"/>
+                            <constraint firstItem="Hvb-Am-xyK" firstAttribute="centerX" secondItem="uNC-hv-sAf" secondAttribute="centerX" id="qC4-yA-PP1"/>
+                            <constraint firstItem="P97-oe-x3S" firstAttribute="leading" secondItem="uNC-hv-sAf" secondAttribute="leading" id="rTP-16-pr5"/>
+                            <constraint firstAttribute="trailing" secondItem="P97-oe-x3S" secondAttribute="trailing" id="sQ1-R1-jw3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Upload" image="uparrow.png" id="bNS-VG-p0M">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Images/uparrow.png"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="loadImageButton" destination="Hvb-Am-xyK" id="960-Gd-BjW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdG-9F-jmn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160.8" y="-1189.6551724137933"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ltz-aI-4zX">
+            <objects>
+                <viewController id="NJF-8C-9Ow" customClass="ViewController" customModule="HouseMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FpT-Ip-JBj"/>
+                        <viewControllerLayoutGuide type="bottom" id="j50-wR-1lq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XKd-S2-9k7" customClass="GMSMapView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="foS-mG-Myd"/>
+                    <connections>
+                        <outlet property="viewMap" destination="XKd-S2-9k7" id="i0l-D7-NuT"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="moveToHouse" id="oVk-ZU-BWU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d5f-I8-1VI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2100" y="-499.70014992503752"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nta-Cp-MHg">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="WJr-Le-yb2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Mfv-jX-Eb8">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XqH-rR-mq9" kind="relationship" relationship="viewControllers" id="Bth-2d-x2y"/>
+                        <segue destination="nl9-at-aLh" kind="relationship" relationship="viewControllers" id="Jyq-uQ-03S"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LeH-f5-tGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="-516"/>
+        </scene>
+        <!--Slideshow Controller-->
+        <scene sceneID="Jy6-0p-2nV">
+            <objects>
+                <viewController id="ng1-VE-CYo" customClass="SlideshowController" customModule="HouseMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="frD-WY-v9G"/>
+                        <viewControllerLayoutGuide type="bottom" id="HQ9-FQ-ptI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tGz-cy-RYb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUg-pa-Hzr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="fYH-0y-PxS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RUg-pa-Hzr" firstAttribute="top" secondItem="tGz-cy-RYb" secondAttribute="top" id="CFB-ec-T8e"/>
+                            <constraint firstItem="RUg-pa-Hzr" firstAttribute="leading" secondItem="tGz-cy-RYb" secondAttribute="leading" id="HTH-A0-pce"/>
+                            <constraint firstAttribute="trailing" secondItem="RUg-pa-Hzr" secondAttribute="trailing" id="hLs-rK-YwX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="RUg-pa-Hzr" id="ray-aS-oB1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xgv-86-ubF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2020" y="-1560.2698650674663"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="QUj-s8-ArK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XqH-rR-mq9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="maplogo.png" id="ayC-hY-wIT">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Images/maplogo.png"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BMk-VG-1CJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NJF-8C-9Ow" kind="relationship" relationship="rootViewController" id="CXt-bS-ayY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sbx-K7-Kgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160.8" y="-499.70014992503752"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Images/maplogo.png" width="16" height="16"/>
+        <image name="Images/uparrow.png" width="16" height="16"/>
+        <image name="maplogo.png" width="35" height="35"/>
+        <image name="uparrow.png" width="35" height="35"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Bth-2d-x2y"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -1,0 +1,6 @@
+framework module Pods_HouseMeTests {
+  umbrella header "Pods-HouseMeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
